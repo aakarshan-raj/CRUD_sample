@@ -1,0 +1,53 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 50%;
+  height: 50px;
+  border-radius: 9px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+
+#card{
+  height: 140px;  
+  margin-bottom: 100px;
+  align-content: center;
+}
+
+.update{
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 30px;
+  width: 200px;
+}
